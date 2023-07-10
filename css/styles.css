@@ -1,13 +1,126 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #000000;
-    background-color: #FFF;
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
+  background-color: var(--white);
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 :root {
-    --
+  --body-text: #434445;
+  --iris: #4D5AE5;
+  --navyblue: #2E2F42;
+  --white: #FFFFFF;
+  --ocean: #404BBF;
+  --green: #31D0AA;
+  --light-slate: #8E8F99;
+  --cornflower: #E7E9FC;
+  --cloud: #F4F4FD;
+  --navy-blue-modal: #2E2F42;
+  --grey: #2E2F42;
+  --dairy: #fcfcfc;
+
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--iris);
+  font-family: Raleway;
+  text-transform: uppercase;
+}
+
+.logo-header {
+  color: var(--navyblue)
+}
+
+.logo-footer {
+  color: var(--cloud);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+
+.link {
+  color: var(--navyblue)
+}
+
+.link:hover,
+.link:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.address {
+  font-weight: 400;
+  color: var(--body-text);
+  font-style: normal;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--ocean);
+}
+
+.main-title {
+  background: var(--navyblue);
+}
+
+.header-1 {
+  color: var(--white);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.our-team {
+  background: var(--cloud);
+}
+
+
+
+.footer {
+  background: var(--navyblue);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
+
+.order-service-button {
+  cursor: pointer;
+  background: var(--iris);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--cloud);
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+  background: var(--ocean);
+}
+
+.filter-button {
+  background: var(--cloud);
+  border: 1px solid var(--cornflower);
+  color: var(--iris);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--ocean);
+  color: var(--white);
+}
+
+
+
+.projects {
+  border: 1px solid var(--cornflower);
+  background: var(--white, #FFF);
 }
