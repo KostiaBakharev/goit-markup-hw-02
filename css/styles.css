@@ -13,19 +13,20 @@ body {
   --white: #FFFFFF;
   --ocean: #404BBF;
   --green: #31D0AA;
-  --light-slate: #8E8F99;
   --cornflower: #E7E9FC;
   --cloud: #F4F4FD;
-  --navy-blue-modal: #2E2F42;
-  --grey: #2E2F42;
-  --dairy: #fcfcfc;
-
 }
 
-ul {
+li {
   list-style-type: none;
-  font-weight: 500;
+
 }
+
+
+a {
+  text-decoration: none;
+}
+
 
 .logo {
   text-decoration: none;
@@ -40,14 +41,6 @@ ul {
 
 .logo-footer {
   color: var(--cloud);
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  display: inline;
 }
 
 .link {
@@ -84,7 +77,9 @@ li {
   background: var(--cloud);
 }
 
-
+.text {
+  color: var(--body-text)
+}
 
 .footer {
   background: var(--navyblue);
