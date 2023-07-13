@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--navyblue);
+  color: #434445;
   background-color: var(--white);
 }
 
@@ -8,19 +8,19 @@ body {
   --body-text: #434445;
   --iris: #4D5AE5;
   --navyblue: #2E2F42;
-  --white: #FFFFFF;
-  --ocean: #404BBF;
+  --white: #ffffff;
+  --ocean: #404bbf;
   --green: #31D0AA;
   --cornflower: #E7E9FC;
   --cloud: #F4F4FD;
 }
 
-li {
-  list-style-type: none;
+.link {
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.list {
+  list-style: none;
 }
 
 .visually-hidden {
@@ -40,9 +40,12 @@ a {
 /* header */
 
 .logo {
-  text-decoration: none;
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -53,6 +56,8 @@ a {
 .logo-footer {
   color: var(--cloud);
 }
+
+
 
 .navigation-item-link {
   color: var(--navyblue);
@@ -65,12 +70,15 @@ a {
 .navigation-item-link:hover,
 .navigation-item-link:focus {
   color: var(--ocean);
-  text-decoration: underline;
+}
+
+.header-address {
+
+  font-style: normal;
 }
 
 .address-item-link {
-  color: var(--body-text);
-  font-style: normal;
+  color: #434445;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -90,7 +98,6 @@ a {
 
 .hero-title {
   color: var(--white);
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -104,7 +111,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--iris);
-  color: var(--cloud);
+  color: var(--white);
 }
 
 .order-service-button:hover,
@@ -128,6 +135,7 @@ a {
 .features-subtitle,
 .team-subtitle,
 .projects-item-subtitle {
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -148,10 +156,8 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  s
+  text-align: center;
 }
-
-.team-list {}
 
 .team-item {
   background-color: var(--white);
@@ -175,8 +181,11 @@ a {
 
 .projects-filter-btn {
   font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--cloud);
-  border: 1px solid var(--cornflower);
   color: var(--iris);
 }
 
@@ -185,8 +194,4 @@ a {
   background-color: var(--ocean);
   color: var(--white);
   cursor: pointer;
-}
-
-.projects-item {
-  border: 1px solid var(--cornflower);
 }
