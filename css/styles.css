@@ -1,18 +1,18 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434445;
+  color: #434455;
   background-color: var(--white);
 }
 
 :root {
-  --body-text: #434445;
-  --iris: #4D5AE5;
-  --navyblue: #2E2F42;
+  --body-text: #434455;
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
   --white: #ffffff;
   --ocean: #404bbf;
-  --green: #31D0AA;
-  --cornflower: #E7E9FC;
-  --cloud: #F4F4FD;
+  --green: #31d0aa;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
 }
 
 .link {
@@ -60,7 +60,7 @@ body {
 
 
 .navigation-item-link {
-  color: var(--navyblue);
+  color: var(--body-text);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -78,7 +78,7 @@ body {
 }
 
 .address-item-link {
-  color: #434445;
+  color: var(--body-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -102,6 +102,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .order-service-button {
@@ -151,6 +152,7 @@ body {
 
 .our-job,
 .team-title {
+  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
